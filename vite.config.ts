@@ -13,7 +13,6 @@ export default defineConfig(({ mode }) => {
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-        'base': process.env.VITE_BASE_PATH || "wa-invitation-generator"
       },
       resolve: {
         alias: {
